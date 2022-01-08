@@ -1,4 +1,6 @@
-# Welcome to Remix!
+# ssr react
+
+<!-- # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
 
@@ -50,4 +52,4 @@ cd my-new-remix-app
 rm -rf app
 # copy your app over
 cp -R ../my-old-remix-app/app app
-```
+``` -->
