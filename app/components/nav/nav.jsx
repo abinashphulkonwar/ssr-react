@@ -14,12 +14,16 @@ export default function Nav() {
             alt="way"
             className="h-10 w-15 rounded-full mr-2.5"
           />
-          <NavLink to="">
-            <h1 className="font-mono text-2xl font-bold tracking-wide">way</h1>
-          </NavLink>
+          <NavLink to="" style={{outline :"none"}} >
+            <h1 className="font-mono text-2xl font-bold tracking-wide outline-hidden">way</h1>
+            </NavLink>
         </li>
-        <li className="flex-1 ml-4 "> hiiiiii</li>
+       <div className="flex-1 flex flex-row justify-start items-center">
+        <li className="ml-4 font-mone text-base	antialiased font-medium text-blue-700 no-underline outline-hidden "> <NavLink style={{outline :"none"}}  to="/signup">Sign Up</NavLink></li>
+        <li className="ml-4 font-mone text-base	antialiased font-medium text-blue-700 no-underline outline-hidden "> <NavLink style={{outline :"none"}}  to="/login">Login</NavLink></li>
+        </div>
       </ul>
     </nav>
   );
 }
+
