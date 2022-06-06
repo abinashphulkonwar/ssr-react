@@ -1,7 +1,7 @@
 export default function Index() {
   return (
     <div className="flex">
-      <h1> hiiiiii</h1>
+     <h1>hiiii</h1>
     </div>
   );
 }

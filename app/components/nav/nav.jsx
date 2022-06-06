@@ -19,8 +19,8 @@ export default function Nav() {
             </NavLink>
         </li>
        <div className="flex-1 flex flex-row justify-start items-center">
-        <li className="ml-4 font-mone text-base	antialiased font-medium text-blue-700 no-underline outline-hidden "> <NavLink style={{outline :"none"}}  to="/signup">Sign Up</NavLink></li>
-        <li className="ml-4 font-mone text-base	antialiased font-medium text-blue-700 no-underline outline-hidden "> <NavLink style={{outline :"none"}}  to="/login">Login</NavLink></li>
+        <li className="ml-4 font-mone text-base	antialiased font-medium text-black-900 no-underline outline-hidden "> <NavLink style={{outline :"none"}}  to="/signup">Sign Up</NavLink></li>
+        <li className="ml-4 font-mone text-base	antialiased font-medium text-black-900 no-underline outline-hidden "> <NavLink style={{outline :"none"}}  to="/login">Login</NavLink></li>
         </div>
       </ul>
     </nav>
