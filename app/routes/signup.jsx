@@ -5,7 +5,6 @@ import { useActionData, Form,   useTransition } from "@remix-run/react";
 export async function action({ request }) {
   const body = await request.formData();
   console.log(body?._fields)
-  
   return body?._fields;
 }
 
